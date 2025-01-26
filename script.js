@@ -5,7 +5,7 @@ function Carousel() {
     {
       name: "Susan Smith",
       job: "Web Developer",
-      image: "/imgs/person1.jpg",
+      image: "imgs/person1.jpg",
       description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia
             enim, laudantium quam cum, reprehenderit veritatis, possimus vel
             excepturi dolores debitis a culpa distinctio eligendi ipsum quisquam
@@ -18,7 +18,7 @@ function Carousel() {
     {
       name: "Jesse Norway",
       job: "Engineer",
-      image: "/imgs/person2.jpg",
+      image: "imgs/person2.jpg",
       description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia
           enim, laudantium quam cum, reprehenderit veritatis, possimus vel
           excepturi dolores debitis a culpa distinctio eligendi ipsum quisquam
@@ -30,7 +30,7 @@ function Carousel() {
     {
       name: "Chris Anderson",
       job: "Student",
-      image: "/imgs/person3.jpg",
+      image: "imgs/person3.jpg",
       description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia
           enim, laudantium quam cum, reprehenderit veritatis, possimus vel
           excepturi dolores debitis a culpa distinctio eligendi ipsum quisquam
@@ -42,7 +42,7 @@ function Carousel() {
     {
       name: "Andrew Huberman",
       job: "Soldier",
-      image: "/imgs/person4.jpg",
+      image: "imgs/person4.jpg",
       description: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa officia
           enim, laudantium quam cum, reprehenderit veritatis, possimus vel
           excepturi dolores debitis a culpa distinctio eligendi ipsum quisquam
