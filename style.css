@@ -13,7 +13,7 @@ body {
 
 .container {
   background-color: #f1f5f8;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,20 +28,20 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 55rem;
-  min-height: 35rem;
+  max-width: 55rem;
+  min-height: 50rem;
   background-color: #ffffff;
   border-radius: 5px;
 }
 
 .image-file {
-  width: 12rem;
-  height: 12rem;
-
+  width: 15rem;
+  height: 15rem;
   background-repeat: repeat;
   background-size: contain;
   border-radius: 50%;
   margin-top: 3rem;
+  object-fit: cover;
 }
 
 .name {
@@ -53,11 +53,14 @@ body {
 
 .job {
   margin-top: 0.5rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #6495df;
 }
 
 .description {
+  display: flex;
+  align-items: center;
+  height: 150px;
   margin-top: 2rem;
   font-size: 1.5rem;
   width: 90%;
@@ -82,8 +85,10 @@ span {
   color: #52b2ef;
 }
 
-.navigation-btns p {
+.navigation-btns img {
   cursor: pointer;
+  width: 2.5rem;
+  height: auto;
 }
 
 .random {
